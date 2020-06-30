@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 应江辉</title>
-    <link>yingjianghui.github.io/posts/</link>
-    <description>Recent content in Posts on 应江辉</description>
+    <title>Posts on 应江辉的博客</title>
+    <link>https://yingjianghui.github.io/posts/</link>
+    <description>Recent content in Posts on 应江辉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 29 Jun 2020 22:57:56 -0700</lastBuildDate>
     
-	<atom:link href="yingjianghui.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yingjianghui.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用hugo搭建个人博客</title>
-      <link>yingjianghui.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://yingjianghui.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 29 Jun 2020 22:57:56 -0700</pubDate>
       
-      <guid>yingjianghui.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://yingjianghui.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>Step 1：下载 Hugo Mac用户
 brew install hugo hugo version  windows用户 下载地址
 Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦,开看到文件开头有一些信息，title是博客的标题，draft: true是表示当时博客是以草稿的形式，需要将他改为draft: true。
@@ -27,19 +27,19 @@ Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一�
     
     <item>
       <title>Test</title>
-      <link>yingjianghui.github.io/posts/test/</link>
+      <link>https://yingjianghui.github.io/posts/test/</link>
       <pubDate>Mon, 29 Jun 2020 22:46:12 -0700</pubDate>
       
-      <guid>yingjianghui.github.io/posts/test/</guid>
+      <guid>https://yingjianghui.github.io/posts/test/</guid>
       <description>这是一个博客测试 </description>
     </item>
     
     <item>
       <title>Hugo Blog</title>
-      <link>yingjianghui.github.io/posts/hugo-blog/</link>
+      <link>https://yingjianghui.github.io/posts/hugo-blog/</link>
       <pubDate>Mon, 29 Jun 2020 22:30:21 -0700</pubDate>
       
-      <guid>yingjianghui.github.io/posts/hugo-blog/</guid>
+      <guid>https://yingjianghui.github.io/posts/hugo-blog/</guid>
       <description>HELLO 这是我使用hugo创建的第一篇博客</description>
     </item>
     
