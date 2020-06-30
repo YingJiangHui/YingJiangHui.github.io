@@ -3,36 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://yingjianghui.github.io/posts/</loc>
     <lastmod>2020-06-29T22:57:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://yingjianghui.github.io/</loc>
     <lastmod>2020-06-29T22:57:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://yingjianghui.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2020-06-29T22:57:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/test/</loc>
+    <loc>https://yingjianghui.github.io/posts/test/</loc>
     <lastmod>2020-06-29T22:46:12-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/hugo-blog/</loc>
+    <loc>https://yingjianghui.github.io/posts/hugo-blog/</loc>
     <lastmod>2020-06-29T22:30:21-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://yingjianghui.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://yingjianghui.github.io/tags/</loc>
   </url>
   
 </urlset>
