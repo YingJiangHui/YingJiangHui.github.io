@@ -19,7 +19,7 @@
       <guid>https://yingjianghui.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>Step 1：下载 Hugo Mac用户
 brew install hugo hugo version  windows用户 下载地址
-Step 2：创建一个新的站点 hugo new site &amp;lt;名称&amp;gt;  Step 3：添加一个主题 cd &amp;lt;名称&amp;gt; git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦！进入后Markdown有一下文本
+Step 2：创建一个新的站点 hugo new site xxx.github.io-cretor  Step 3：添加一个主题 cd xxx.github.io-cretor git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦！进入后Markdown有一下文本
 --- title: &amp;quot;Test&amp;quot; date: 2020-06-29T22:46:12-07:00 draft: true ---  title是博客的标题，draft: true是表示当时博客是以草稿的形式，需要将他改为draft: false。
 Step 5：开启hugo服务器 hugo server -D   服务器运行后会看到本机的一个地址，点击进入即可看到博客内容
  Step 6：制定主题 打开config.toml对其更改  注意：需要将baseURL改为自己的github地址,否则进入帖子时的URL将无法正确链接到你的网站。 (本人就踩了这个坑)
