@@ -29,10 +29,11 @@
     <meta property="og:title" content="用hugo搭建个人博客" />
 <meta property="og:description" content="Step 1：下载 Hugo Mac用户
 brew install hugo hugo version  windows用户 下载地址
-Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦,开看到文件开头有一些信息，title是博客的标题，draft: true是表示当时博客是以草稿的形式，需要将他改为draft: true。
+Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦，开看到文件开头有一些信息，title是博客的标题，draft: true是表示当时博客是以草稿的形式，需要将他改为draft: false。
 --- title: &quot;Test&quot; date: 2020-06-29T22:46:12-07:00 draft: true ---  Step 5：开启hugo服务器 hugo server -D   服务器运行后会看到本机的一个地址，点击进入即可看到博客内容
- Step 6：制定主题 打开config.toml对其更改 Step 7：构建一个静态页面 hugo -D  Step 8：部署 在hugo站点根目录下创建.gitignore写入/public/，目的是让Git仓库不要管public文件。
-在GitHub上新建仓库名为xxx.github.io(xxx表示你自己的github名称)。接着进入public文件初始化git仓库。" />
+ Step 6：制定主题 打开config.toml对其更改  注意：需要将baseURL改为自己的github地址,否则进入帖子时的URL将无法正确链接到你的网站。 (本人就踩了这个坑)
+ Step 7：构建一个静态页面 在更目录下输入一下命令
+hugo -D  Step 8：部署 隐藏public文件 在hugo站点根目录下创建." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yingjianghui.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2020-06-29T22:57:56-07:00" />
@@ -40,13 +41,14 @@ Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一�
 <meta itemprop="name" content="用hugo搭建个人博客">
 <meta itemprop="description" content="Step 1：下载 Hugo Mac用户
 brew install hugo hugo version  windows用户 下载地址
-Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦,开看到文件开头有一些信息，title是博客的标题，draft: true是表示当时博客是以草稿的形式，需要将他改为draft: true。
+Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦，开看到文件开头有一些信息，title是博客的标题，draft: true是表示当时博客是以草稿的形式，需要将他改为draft: false。
 --- title: &quot;Test&quot; date: 2020-06-29T22:46:12-07:00 draft: true ---  Step 5：开启hugo服务器 hugo server -D   服务器运行后会看到本机的一个地址，点击进入即可看到博客内容
- Step 6：制定主题 打开config.toml对其更改 Step 7：构建一个静态页面 hugo -D  Step 8：部署 在hugo站点根目录下创建.gitignore写入/public/，目的是让Git仓库不要管public文件。
-在GitHub上新建仓库名为xxx.github.io(xxx表示你自己的github名称)。接着进入public文件初始化git仓库。">
+ Step 6：制定主题 打开config.toml对其更改  注意：需要将baseURL改为自己的github地址,否则进入帖子时的URL将无法正确链接到你的网站。 (本人就踩了这个坑)
+ Step 7：构建一个静态页面 在更目录下输入一下命令
+hugo -D  Step 8：部署 隐藏public文件 在hugo站点根目录下创建.">
 <meta itemprop="datePublished" content="2020-06-29T22:57:56-07:00" />
 <meta itemprop="dateModified" content="2020-06-29T22:57:56-07:00" />
-<meta itemprop="wordCount" content="66">
+<meta itemprop="wordCount" content="125">
 
 
 
@@ -54,10 +56,11 @@ Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一�
 <meta name="twitter:title" content="用hugo搭建个人博客"/>
 <meta name="twitter:description" content="Step 1：下载 Hugo Mac用户
 brew install hugo hugo version  windows用户 下载地址
-Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦,开看到文件开头有一些信息，title是博客的标题，draft: true是表示当时博客是以草稿的形式，需要将他改为draft: true。
+Step 2：创建一个新的站点 hugo new site quickstart  Step 3：添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  Step 4:添加一片文章 hugo new posts/my-first-post.md  进入该文件就可以开始写自己的博客啦，开看到文件开头有一些信息，title是博客的标题，draft: true是表示当时博客是以草稿的形式，需要将他改为draft: false。
 --- title: &quot;Test&quot; date: 2020-06-29T22:46:12-07:00 draft: true ---  Step 5：开启hugo服务器 hugo server -D   服务器运行后会看到本机的一个地址，点击进入即可看到博客内容
- Step 6：制定主题 打开config.toml对其更改 Step 7：构建一个静态页面 hugo -D  Step 8：部署 在hugo站点根目录下创建.gitignore写入/public/，目的是让Git仓库不要管public文件。
-在GitHub上新建仓库名为xxx.github.io(xxx表示你自己的github名称)。接着进入public文件初始化git仓库。"/>
+ Step 6：制定主题 打开config.toml对其更改  注意：需要将baseURL改为自己的github地址,否则进入帖子时的URL将无法正确链接到你的网站。 (本人就踩了这个坑)
+ Step 7：构建一个静态页面 在更目录下输入一下命令
+hugo -D  Step 8：部署 隐藏public文件 在hugo站点根目录下创建."/>
 
 	
   </head>
@@ -170,7 +173,7 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 <h2 id="step-4添加一片文章">Step 4:添加一片文章</h2>
 <pre><code>hugo new posts/my-first-post.md
 </code></pre>
-<p>进入该文件就可以开始写自己的博客啦,开看到文件开头有一些信息，title是博客的标题，<code>draft: true</code>是表示当时博客是以草稿的形式，需要将他改为<code>draft: true</code>。</p>
+<p>进入该文件就可以开始写自己的博客啦，开看到文件开头有一些信息，title是博客的标题，<code>draft: true</code>是表示当时博客是以草稿的形式，需要将他改为<code>draft: false</code>。</p>
 <pre><code>---
 title: &quot;Test&quot;
 date: 2020-06-29T22:46:12-07:00
@@ -186,17 +189,60 @@ draft: true
 <p><img src="https://i.loli.net/2020/06/30/RF6gQDGwpc1knPI.png" alt="image.png"></p>
 <h2 id="step-6制定主题">Step 6：制定主题</h2>
 <p>打开config.toml对其更改
-<img src="https://i.loli.net/2020/06/30/ilaQ1joge2UrsCF.png" alt="image.png"></p>
+<img src="/static/configImage.png" alt="image.png"></p>
+<blockquote>
+<p>注意：需要将baseURL改为自己的github地址,否则进入帖子时的<strong>URL</strong>将无法正确链接到你的网站。 (本人就踩了这个坑)</p>
+</blockquote>
 <h2 id="step-7构建一个静态页面">Step 7：构建一个静态页面</h2>
+<p>在更目录下输入一下命令</p>
 <pre><code>hugo -D
 </code></pre>
 <h2 id="step-8部署">Step 8：部署</h2>
-<p>在hugo站点根目录下创建<code>.gitignore</code>写入/public/，目的是让Git仓库不要管public文件。</p>
-<p>在GitHub上新建仓库名为xxx.github.io(xxx表示你自己的github名称)。接着进入public文件初始化git仓库。</p>
-<p>链接远程仓库也就是对应刚刚创建的仓库，并将所有的文件提交到本地仓库，再push到远程仓库。</p>
-<p>进入刚刚创建的GitHub仓库，点击settings找到GitHub pages如下图将其改为master branch选项。</p>
+<h3 id="隐藏public文件">隐藏public文件</h3>
+<p>在hugo站点根目录下创建<code>.gitignore</code>并写入内容/public/，目的是让Git仓库不要管public文件。</p>
+<h3 id="创建对应的github仓库">创建对应的GitHub仓库</h3>
+<p>在GitHub上新建仓库名为xxx.github.io(xxx表示你自己的github名称)。</p>
+<h3 id="连接并推送到远程仓库">连接并推送到远程仓库</h3>
+<p>接着进入public文件初始化git仓库，链接远程仓库也就是对应刚刚创建的仓库，并将所有的文件提交到本地仓库，再push到远程仓库。</p>
+<h3 id="设置github-pages">设置GitHub Pages</h3>
+<p>进入刚刚创建的GitHub仓库，点击settings找到GitHub Pages如下图将其改为master branch选项。</p>
 <p><img src="https://i.loli.net/2020/06/30/4qRIGkNnwPaSEds.png" alt="image.png"></p>
-<p><a href="https://gohugo.io/getting-started/quick-start/">官方教程</a></p>
+<blockquote>
+<p>如若操作出现错误请以最新<a href="https://gohugo.io/getting-started/quick-start/">官方教程</a>为准。</p>
+</blockquote>
+<h2 id="二次提交">二次提交</h2>
+<p>新创建一篇</p>
+<pre><code>hugo new posts/my-first-post.md
+</code></pre>
+<p>执行构建静态页面</p>
+<pre><code>hugo -D
+</code></pre>
+<p>最后进入public提交到远程即可</p>
+<h2 id="总结">总结</h2>
+<h3 id="需要注意的地方">需要注意的地方</h3>
+<ol>
+<li>config.toml中的文件是需要配置之后才可以使用的，特别注意baseURL属性是你的GitHub地址。</li>
+<li>注意每篇博客开头draft属性。</li>
+<li>每次修改都需要在站点根目录进行一次静态构建<code>hugo -D</code>，再到public进行提交。</li>
+</ol>
+<h3 id="使用到的命令">使用到的命令</h3>
+<pre><code>hugo new site quickstart
+
+cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+
+hugo new posts/my-first-post.md
+
+hugo server -D //用于博客在本地的预览(可省略)
+
+hugo -D
+
+cd public
+git add .
+git commit -v
+git push -u origin master
+</code></pre>
 <ul class="pa0">
   
 </ul>
